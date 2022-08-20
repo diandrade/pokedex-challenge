@@ -83,9 +83,9 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
 
     // Coil
+    implementation("io.coil-kt:coil-base:2.2.0")
     implementation("io.coil-kt:coil-compose:2.2.0")
-    //noinspection GradleDependency
-    implementation("com.google.accompanist:accompanist-coil:0.7.0")
+    implementation('com.google.accompanist:accompanist-coil:0.15.0')
 
 
     //Dagger - Hilt
