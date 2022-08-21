@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/conta/AndroidStudioProjects/JetpackComposePokedex/app/src/main/res/drawable/ic_baseline_bookmarks_24.xml" value="0.1955" />
+        <entry key="..\:/Users/conta/AndroidStudioProjects/JetpackComposePokedex/app/src/main/res/layout/fragment_pokemon_favorite_list.xml" value="0.2" />
+        <entry key="..\:/Users/conta/AndroidStudioProjects/JetpackComposePokedex/app/src/main/res/layout/fragment_pokemon_favorite_screen.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

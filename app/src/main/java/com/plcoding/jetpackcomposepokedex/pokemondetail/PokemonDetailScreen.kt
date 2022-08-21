@@ -10,6 +10,8 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.filled.Favorite
+import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.produceState
@@ -20,15 +22,19 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.graphics.painter.Painter
+import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
+import androidx.navigation.NavHostController
 import coil.compose.AsyncImage
 import com.plcoding.jetpackcomposepokedex.R
 import com.plcoding.jetpackcomposepokedex.data.remote.responses.Pokemon
@@ -48,6 +54,7 @@ fun PokemonDetailScreen(
     topPadding: Dp = 20.dp,
     pokemonImageSize: Dp = 200.dp,
     viewModel: PokemonDetailViewModel = hiltViewModel()
+
 ) {
     val pokemonInfo = produceState<Resource<Pokemon>>(initialValue = Resource.Loading()) {
         value = viewModel.getPokemonInfo(pokemonName)
@@ -88,9 +95,13 @@ fun PokemonDetailScreen(
                     start = 16.dp,
                     end = 16.dp,
                     bottom = 16.dp
+
                 )
+
         )
-        Box(contentAlignment = Alignment.TopCenter,
+
+        Box(
+            contentAlignment = Alignment.TopCenter,
             modifier = Modifier
             .fillMaxSize()) {
             if (pokemonInfo is Resource.Success) {
@@ -102,11 +113,38 @@ fun PokemonDetailScreen(
                             .size(pokemonImageSize)
                             .offset(y = topPadding)
                     )
-
+                    FavoriteButton(modifier = Modifier.padding(12.dp))
                 }
             }
         }
     }
+}
+
+@Composable
+fun FavoriteButton(
+    modifier: Modifier = Modifier,
+    color: Color = Color.White
+) {
+
+    var isFavorite by remember { mutableStateOf(false) }
+
+    IconToggleButton(
+        checked = isFavorite,
+        onCheckedChange = {
+            isFavorite = !isFavorite
+        }
+    ) {
+        Icon(
+            tint = color,
+            imageVector = if (isFavorite) {
+                Icons.Filled.Favorite
+            } else {
+                Icons.Default.FavoriteBorder
+            },
+            contentDescription = null
+        )
+    }
+
 }
 
 @Composable
@@ -136,7 +174,6 @@ fun PokemonDetailTopSection(
                 .clickable {
                     navController.popBackStack()
                 }
-
         )
     }
 }
@@ -372,4 +409,8 @@ fun PokemonBaseStats(
         }
     }
 }
+
+
+
+
 

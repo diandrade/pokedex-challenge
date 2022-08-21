@@ -43,6 +43,7 @@ fun PokemonListScreen(
     Surface(
         color = MaterialTheme.colors.background,
         modifier = Modifier.fillMaxSize()
+
     ) {
         Column {
             Spacer(modifier = Modifier.height(20.dp))
@@ -256,5 +257,12 @@ fun PokemonList(
                 Text(text = "Reiniciar")
             }
         }
+
     }
+
+
+
+
+
+
 
