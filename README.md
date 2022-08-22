@@ -10,8 +10,11 @@ E outra lista, com a opção de visualizar os pokemons salvos.
 As informações do pokemon obrigatórias, são as seguintes:
 
 ● ID
+<br/>
 ● Nome
+<br/>
 ● Tipo (grass, fire, water)
+<br/>
 ● Foto
 
 Em adicional seguindo os passos de Phillip, adicionamos também o **peso**, a **altura** e os **stats** do pokemon.
@@ -21,10 +24,15 @@ Em adicional seguindo os passos de Phillip, adicionamos também o **peso**, a **
 **Tecnologias/Design Patterns do Desafio**
 
 ● MVVM (Obrigatório)
+<br/>
 ● Room (Obrigatório)
+<br/>
 ● Ktor ou Retrofit (Obrigatório)
+<br/>
 ● Coroutine (Obrigatório)
+<br/>
 ● Jetpack Compose (Opcional)
+<br/>
 ● Injeção de Dependência (Opcional) 
 
 ## Dificuldades
