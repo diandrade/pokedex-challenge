@@ -60,6 +60,7 @@ Após clicar no Pokemon escolhido, temos acesso ao **id do Pokemon, ao nome, o t
 <br/>
 Finalizando a primeira lista, temos uma opção para favoritar e desfavoritar o pokemon, na parte superior da tela.
 <br/>
+<br/>
 ● [Resumo Codificação]()
 <br/>
 <br/>
