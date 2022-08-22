@@ -39,4 +39,14 @@ Em adicional seguindo os passos de Phillip, adicionamos também o **peso**, a **
 
 Embora com muita pesquisa, diversas mudanças na técnologia de aplicativos da data dos vídeos de Phillip ocorreram, então muitas vezes foi necessário realizar pesquisas sobre as mudanças em si, como por exemplo as que ocorreram no framework Coil, sem contar também as mudanças de versão da versão base do projeto, e das versões atuais.
 
+## Apresentação Do Projeto
+
+Caso queiram visualizar o projeto na prática, aqui temos 2 videos disponibilizados pela opção não listada do Youtube:
+<br/>
+● [Apresentação Do App No Celular](https://youtu.be/wcucE0zaZ-k)
+<br/>
+● [Resumo Codificação]()
+
+
+
 
