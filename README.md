@@ -61,7 +61,7 @@ Após clicar no Pokemon escolhido, temos acesso ao **id do Pokemon, ao nome, o t
 Finalizando a primeira lista, temos uma opção para favoritar e desfavoritar o pokemon, na parte superior da tela.
 <br/>
 <br/>
-● [Resumo Codificação]()
+● [Resumo Codificação](https://youtu.be/VZC6Ux_wCTY)
 <br/>
 <br/>
 Nesse vídeo, temos um pouco da explicação, porém utilizando o Android Studio para demonstrar os principais desafios que ocorreram durante o projeto, e também uma visão geral da etapa de codificação.
