@@ -50,7 +50,9 @@ Embora com muita pesquisa, diversas mudanças na técnologia de aplicativos da d
 
 Caso queiram visualizar o projeto na prática, aqui temos 2 videos disponibilizados pela opção não listada do Youtube:
 <br/>
+<br/>
 ● [Apresentação Do App No Celular](https://youtu.be/wcucE0zaZ-k)
+<br/>
 <br/>
 Como o celular não captou o som tão bem, vou detalhar o vídeo aqui. Bom, no vídeo temos a visualização do projeto a partir de sua inicialização, na qual após inicialização, temos contato com a primeira lista, demonstrando todos os pokemons da api, com foto de perfil e **estilização** pré-definidas através do projeto base disponibilizado [aqui](https://github.com/philipplackner/JetpackComposePokedex).
 <br/>
@@ -59,6 +61,7 @@ Após clicar no Pokemon escolhido, temos acesso ao **id do Pokemon, ao nome, o t
 Finalizando a primeira lista, temos uma opção para favoritar e desfavoritar o pokemon, na parte superior da tela.
 <br/>
 ● [Resumo Codificação]()
+<br/>
 <br/>
 Nesse vídeo, temos um pouco da explicação, porém utilizando o Android Studio para demonstrar os principais desafios que ocorreram durante o projeto, e também uma visão geral da etapa de codificação.
 
