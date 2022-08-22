@@ -65,6 +65,8 @@ Finalizando a primeira lista, temos uma opção para favoritar e desfavoritar o 
 <br/>
 <br/>
 Nesse vídeo, temos um pouco da explicação, porém utilizando o Android Studio para demonstrar os principais desafios que ocorreram durante o projeto, e também uma visão geral da etapa de codificação.
+<br/>
+Também conto um pouco sobre os aprendizados adquiridos enquanto desenvolvi o projeto.
 
 
 
