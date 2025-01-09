@@ -23,7 +23,7 @@ As informações obrigatórias do Pokémon são as seguintes:
 
 Além disso, seguindo os passos de Philipp, adicionamos também o peso, a altura e os stats do Pokémon.
 
-Especificações Técnicas
+# Especificações Técnicas
 
 Tecnologias/Design Patterns do Desafio
 
@@ -39,13 +39,13 @@ Tecnologias/Design Patterns do Desafio
 
 ● Injeção de Dependência (Opcional)
 
-Dificuldades
+# Dificuldades
 
 Embora tenha realizado muita pesquisa, diversas mudanças na tecnologia de aplicativos ocorreram desde a data dos vídeos de Philipp. Por isso, muitas vezes foi necessário realizar pesquisas sobre as mudanças em si, como, por exemplo, as que ocorreram no framework Coil. Além disso, houve mudanças na versão base do projeto, assim como nas versões atuais do Gradle, Kotlin e Hilt.
 
 Também é válido destacar a dificuldade em criar a segunda lista. Mesmo tentando, encontrei desafios em utilizar o Room junto do Jetpack Compose, e decidi focar em finalizar a primeira lista para trazer a função de favorito como uma feature para as próximas etapas.
 
-Apresentação Do Projeto
+# Apresentação Do Projeto
 
 Caso queiram visualizar o projeto na prática, aqui temos dois vídeos disponibilizados pela opção não listada do YouTube:
 
