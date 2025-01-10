@@ -9,9 +9,6 @@
   <img src="https://github.com/diandrade/Pokedex-Challenge/blob/cb67ea904f42e682957728ea821722d6d30ce1b1/img/WhatsApp%20Image%202022-08-22%20at%2007.45.06.jpeg" alt="Pokémon 4" width="45%" />
 </div>
 
-
-Hello! This is the **Pokedex** project I created as part of a challenge, following the tutorial by YouTuber **Philipp Lackner**.
-
 ## Challenge Overview
 The goal of the challenge was to create two lists:
 
@@ -23,21 +20,18 @@ This list displays the Pokémon that the user has saved or marked as favorites.
 
 ## Pokémon Information
 For each Pokémon, the following mandatory information is displayed:
-
 - **ID**
 - **Name**
 - **Type** (grass, fire, water)
 - **Photo**
 
 Additionally, following Philipp's tutorial, we also include the following extra details:
-
 - **Weight**
 - **Height**
 - **Stats**
 
 ## Technical Specifications
 The following **technologies** and **design patterns** were used in the challenge:
-
 - **MVVM** (Mandatory)
 - **Room** (Mandatory)
 - **Ktor** or **Retrofit** (Mandatory)
