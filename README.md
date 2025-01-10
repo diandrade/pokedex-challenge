@@ -5,67 +5,64 @@
 <img src="https://github.com/diandrade/Pokedex-Challenge/blob/885ad43aa317ab55679afd46ac0d501964b99fee/img/WhatsApp%20Image%202022-08-22%20at%2007.45.05%20(1).jpeg" alt="JetNews" width="240"></img>
 <img src="https://github.com/diandrade/Pokedex-Challenge/blob/cb67ea904f42e682957728ea821722d6d30ce1b1/img/WhatsApp%20Image%202022-08-22%20at%2007.45.06.jpeg" alt="JetNews" width="240"></img>
 
-Olá! Esse é o projeto de uma Pokedex que realizei para um desafio seguindo os passos do youtuber Philipp Lackner.
+Hello! This is the Pokedex project I created for a challenge following the steps of YouTuber Philipp Lackner.
 
-O desafio se trata de criar duas listas: uma com os Pokémons utilizados através da API dos Pokémons, encontrada NESSE LINK, com o objetivo de mostrar os Pokémons disponíveis, onde é necessário clicar para acessar as informações do Pokémon específico.
+The challenge consists of creating two lists: one with Pokémon fetched from the Pokémon API, found [HERE](insert-link), displaying available Pokémon, where you need to click to access the specific Pokémon’s details.
 
-E outra lista com a opção de visualizar os Pokémons salvos.
+The other list shows saved Pokémon.
 
-As informações obrigatórias do Pokémon são as seguintes:
+The mandatory information for each Pokémon includes:
 
 ● ID
 
-● Nome
+● Name
 
-● Tipo (grass, fire, water)
+● Type (grass, fire, water)
 
-● Foto
+● Photo
 
-Além disso, seguindo os passos de Philipp, adicionamos também o peso, a altura e os stats do Pokémon.
+Additionally, following Philipp's steps, we also added the weight, height, and stats of each Pokémon.
 
-# Especificações Técnicas
+## Technical Specifications
 
-Tecnologias/Design Patterns do Desafio
+Technologies/Design Patterns used in the Challenge:
 
-● MVVM (Obrigatório)
+● MVVM (Mandatory)
 
-● Room (Obrigatório)
+● Room (Mandatory)
 
-● Ktor ou Retrofit (Obrigatório)
+● Ktor or Retrofit (Mandatory)
 
-● Coroutine (Obrigatório)
+● Coroutine (Mandatory)
 
-● Jetpack Compose (Opcional)
+● Jetpack Compose (Optional)
 
-● Injeção de Dependência (Opcional)
+● Dependency Injection (Optional)
 
-# Dificuldades
+## Challenges
 
-Embora tenha realizado muita pesquisa, diversas mudanças na tecnologia de aplicativos ocorreram desde a data dos vídeos de Philipp. Por isso, muitas vezes foi necessário realizar pesquisas sobre as mudanças em si, como, por exemplo, as que ocorreram no framework Coil. Além disso, houve mudanças na versão base do projeto, assim como nas versões atuais do Gradle, Kotlin e Hilt.
+Although I did a lot of research, several changes in app development technologies occurred since Philipp’s videos. As a result, I often had to research these changes, such as those in the Coil framework. Also, there were changes in the base project version, as well as the current versions of Gradle, Kotlin, and Hilt.
 
-Também é válido destacar a dificuldade em criar a segunda lista. Mesmo tentando, encontrei desafios em utilizar o Room junto do Jetpack Compose, e decidi focar em finalizar a primeira lista para trazer a função de favorito como uma feature para as próximas etapas.
+A notable challenge was creating the second list. Even after several attempts, I faced difficulties using Room with Jetpack Compose. I decided to focus on finishing the first list and adding the favorite feature as part of the next steps.
 
-# Apresentação Do Projeto
+## Project Presentation
 
-Caso queiram visualizar o projeto na prática, aqui temos dois vídeos disponibilizados pela opção não listada do YouTube:
+If you'd like to see the project in action, here are two videos available through YouTube’s unlisted option:
 
+● **App Presentation on Mobile**
 
-● Apresentação Do App No Celular
+Since the mobile device didn’t capture the audio very well, I’ll detail the video here. In the video, we see the project starting up. After initialization, the first list appears, showing all Pokémon from the API, complete with profile pictures and predefined styling based on the base project available [here](insert-link).
 
+After clicking on the chosen Pokémon, you get access to the Pokémon’s ID, name, type, profile photo, weight, height, and stats.
 
-Como o celular não captou o som tão bem, vou detalhar o vídeo aqui. No vídeo, temos a visualização do projeto a partir de sua inicialização. Após a inicialização, temos contato com a primeira lista, que demonstra todos os Pokémons da API, com foto de perfil e estilização pré-definidas através do projeto base disponibilizado aqui.
+At the end of the first list, there’s an option to favorite or unfavorite the Pokémon at the top of the screen.
 
-Após clicar no Pokémon escolhido, temos acesso ao ID do Pokémon, ao nome, ao tipo, a uma foto de perfil, peso, altura e status do Pokémon.
+● **Coding Summary**
 
-Finalizando a primeira lista, temos uma opção para favoritar e desfavoritar o Pokémon na parte superior da tela.
+In this video, I explain some of the challenges faced during the project using Android Studio, as well as a general overview of the coding process.
 
+I also discuss the lessons learned during the development of this project.
 
-● Resumo Codificação
-
-
-Nesse vídeo, temos um pouco da explicação utilizando o Android Studio para demonstrar os principais desafios que ocorreram durante o projeto, além de uma visão geral da etapa de codificação.
-
-Também conto um pouco sobre os aprendizados adquiridos durante o desenvolvimento do projeto.
 
 
 
